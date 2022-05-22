@@ -4,6 +4,11 @@ body, footer, header {
     text-align: center;
 }
 
+footer{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
 /* -------------------NAVBAR---------------------- */
 
 .navbar{
@@ -11,7 +16,7 @@ body, footer, header {
 }
 
 .navbar li{
-    background-color: #04db08;
+    background-color: #12dcf7;
     display: inline-block;
     padding: 14px 16px;
     font-size: 17px;
@@ -26,22 +31,11 @@ body, footer, header {
 
 /* -------------------PERSPECTIVE PAGE---------------------- */
 
-.Physics li{
-    border: 0.5px solid black;
-    margin: 10px;
-}
-
-.Physics ul{
-    border: 0.5px solid black;
-}
-
-.Physics ol{
-    padding: 10px;
-    border-top: 0.5px solid black;
-}
-
-.P1, .P2, .P3{
-    padding: 10px;
+.POINT{
+    border: 2px solid black;
+    padding: 6px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /* ---------------------ABOUT US PAGE-------------------- */
@@ -57,6 +51,7 @@ body, footer, header {
 .JosephBDE{
     float: left;
     padding-left: 30px;
+    margin-top: 20px;
 }
 
 .JosephTitle, .JosephText{
