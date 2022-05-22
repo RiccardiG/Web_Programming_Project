@@ -1,7 +1,10 @@
 body, footer, header {
     background-color: #ffffff;
     margin-left: 50px;
+    text-align: center;
 }
+
+/* -------------------NAVBAR---------------------- */
 
 .navbar{
     text-align: center;
@@ -15,13 +18,13 @@ body, footer, header {
     border: 2px solid black;
 }
 
-
-
-
 .navbar li:hover {
     background-color: #ddd;
     color: black;
 }
+
+
+/* -------------------PERSPECTIVE PAGE---------------------- */
 
 .Physics li{
     border: 0.5px solid black;
@@ -39,4 +42,75 @@ body, footer, header {
 
 .P1, .P2, .P3{
     padding: 10px;
+}
+
+/* ---------------------ABOUT US PAGE-------------------- */
+
+.Joseph{
+    border: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 30px;
+}
+
+.JosephBDE{
+    float: left;
+    padding-left: 30px;
+}
+
+.JosephTitle, .JosephText{
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+.JosephText{
+    margin-bottom: 115px;
+}
+
+.Arthur{
+    border: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 30px;
+}
+
+.ArthurBDE{
+    float: right;
+    padding-right: 30px;
+}
+
+.ArthurTitle, .ArthurText{
+    text-align: right;
+    padding-right: 300px;
+    padding-top: 15px;
+}
+
+.ArthurText{
+    margin-bottom: 115px;
+}
+
+.Giuliano{
+    border: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 30px;
+}
+
+.GiulianoBDE{
+    float: left;
+    padding-left: 30px;
+}
+
+.GiulianoTitle, .GiulianoText{
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+.GiulianoText{
+    margin-bottom: 115px;
 }
