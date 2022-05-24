@@ -1,0 +1,119 @@
+body, footer, header {
+    background-color: #ffffff;
+    margin-left: 50px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+/* -------------------NAVBAR---------------------- */
+
+.navbar{
+    text-align: center;
+}
+
+.navbar li{
+    background-color: #12dcf7;
+    display: inline-block;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 2px solid black;
+}
+
+.navbar li:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* -------------------HOME PAGE---------------------- */
+
+.finpagehome{
+    margin-bottom: 50px;
+}
+
+
+/* -------------------PERSPECTIVE PAGE---------------------- */
+
+.POINT{
+    border: 2px solid black;
+    padding: 6px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* ---------------------ABOUT US PAGE-------------------- */
+
+.Joseph{
+    border: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 30px;
+}
+
+.JosephBDE{
+    float: left;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.JosephTitle, .JosephText{
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+.JosephText{
+    margin-bottom: 115px;
+}
+
+.Arthur{
+    border: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 30px;
+}
+
+.ArthurBDE{
+    float: right;
+    padding-right: 30px;
+}
+
+.ArthurTitle, .ArthurText{
+    text-align: right;
+    padding-right: 300px;
+    padding-top: 15px;
+}
+
+.ArthurText{
+    margin-bottom: 115px;
+}
+
+.Giuliano{
+    border: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.GiulianoBDE{
+    float: left;
+    padding-left: 30px;
+}
+
+.GiulianoTitle, .GiulianoText{
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+.GiulianoText{
+    margin-bottom: 115px;
+}
