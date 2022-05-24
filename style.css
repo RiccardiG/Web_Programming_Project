@@ -1,4 +1,4 @@
-body, footer, header {
+body, header {
     background-color: #ffffff;
     text-align: center;
     margin: 0px;
@@ -7,12 +7,6 @@ body, footer, header {
 footer{
     margin-top: 50px;
     margin-right: 50px;
-}
-
-.a_propos{
-    border: 2px solid black;
-    padding: 15px;
-    border-radius: 60px;
 }
 
 /* -------------------NAVBAR---------------------- */
@@ -38,6 +32,28 @@ footer{
     color: black;
 }
 
+/* -------------------FOOTER---------------------- */
+
+footer{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.a_propos{
+    display: inline-block;
+    font-size: 17px;
+    padding: 30px;
+    color: aqua;
+    text-decoration: none;
+}
+
+.a_propos:hover{
+    background-color: #ddd;
+    color: black;
+}
+
 /* -------------------HOME PAGE---------------------- */
 
 .Home_page{
@@ -49,12 +65,11 @@ footer{
     margin-bottom: 50px;
 }
 
-h1{
+.text a{
     border-radius: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     border: 2px solid black;
-    
-    margin-left: 500px;
-    margin-right: 500px;
     background-color: rgba(22, 136, 98, 0.563);
 }
 
@@ -62,6 +77,10 @@ p{
     border: 5px double rgb(91, 223, 164);
     margin: 30px;
     padding: 10px;
+}
+
+.form{
+    margin-bottom: 100px;
 }
 
 /* -------------------PERSPECTIVE PAGE---------------------- */
