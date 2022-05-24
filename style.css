@@ -14,6 +14,15 @@ footer{
 
 .navbar{
     text-align: center;
+<<<<<<< Updated upstream
+=======
+    background-color: black;
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin-bottom: 20px;
+    
+>>>>>>> Stashed changes
 }
 
 .navbar li{
@@ -24,15 +33,29 @@ footer{
     border: 2px solid black;
 }
 
+<<<<<<< Updated upstream
 .navbar li:hover {
     background-color: #ddd;
+=======
+.navbar a:hover {
+    background-color: rgb(28, 100, 114);
+>>>>>>> Stashed changes
     color: black;
 }
 
 /* -------------------HOME PAGE---------------------- */
 
+<<<<<<< Updated upstream
+=======
+.Home_page{
+    background-color: black;
+    padding-top: 50px;
+}
+
+>>>>>>> Stashed changes
 .finpagehome{
     margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 
