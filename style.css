@@ -25,17 +25,18 @@ body, header {
     text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar1:hover, .navbar2:hover, .navbar3:hover, .navbar4:hover {
     background-color: #ddd;
     color: black;
 }
 
 .logo{
-    text-align: left;
     position: fixed;
-    padding-top: 2px;
+    border-top-width: 0px;
     top: 0;
-    width: 100%;
+    z-index: 5;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 /* -------------------FOOTER---------------------- */
@@ -71,7 +72,6 @@ footer{
 .finpagehome{
     margin-bottom: 50px;
 }
-
 
 .text a{
     border-radius: 60px;
