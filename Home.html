@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel = "stylesheet" href="style.css"> 
+    <script type="text/javascript" src="dynamic.js"></script>
 </head>
 <body>
     <div class="Home_page">
@@ -19,6 +20,9 @@
         <a href = "Cart.html" class="navbar2">LE CHARIOT</a>
         <a href = "Features.html" class="navbar3">LES FONCTIONNALITES</a>
         <a href = "Perspectives.html" class="navbar4">LES PERSPECTIVES</a>
+    </div>
+    <div class="logo">
+        <a href="Home.html"><img srcset="logo_web.png 10000w"></a>
     </div>
 
     <div class="text">
@@ -41,13 +45,14 @@
         <button type = "submit", class = "btn" onclick="add()">M'inscrire</button>
         </form>
     </div>
-    <div class="box">
+    <div class="rectangle">
                  
         <table class="datatable">
             <thead>
                 <tr>
                     <th>Nom</th>
                     <th>Pourquoi</th>
+                    <th>Mail</th>
                 </tr>
             </thead>
             <tbody id="tbody">

@@ -30,6 +30,14 @@ body, header {
     color: black;
 }
 
+.logo{
+    text-align: left;
+    position: fixed;
+    padding-top: 2px;
+    top: 0;
+    width: 100%;
+}
+
 /* -------------------FOOTER---------------------- */
 
 footer{
@@ -81,7 +89,8 @@ footer{
 }
 
 .form{
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
 }
 
 /* -------------------PERSPECTIVE PAGE---------------------- */
@@ -250,6 +259,7 @@ footer{
 .datatable {
     width: 100%;
     box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+    margin-bottom: 50px;
   }
   
   .datatable td, .datatable th {
@@ -259,7 +269,7 @@ footer{
   .datatable tr:not(:last-child) td, .datatable th {
     border-bottom: 1px solid #ccc;
   }
- 
+
   /* ------------------------------------------box---------------------------------------------- */
 
   main .box {
@@ -280,9 +290,21 @@ footer{
     border:1px ;
     border-radius:25px;
     box-shadow: 0px 0px 15px #333;
-    margin-bottom: 100px;
-    padding-bottom: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 16px;
     
+}
+
+.rectangle{
+    background-color: rgb(248, 245, 245);
+    margin: 2em;
+    padding: 16px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    border:1px ;
+    border-radius:25px;
+    box-shadow: 0px 0px 15px #333;
+    margin-bottom: 100px;
+    padding-bottom: 16px;
 }
 
 /* ----------------------------------------------------Cart ----------------------------------------------*/

@@ -1,22 +1,23 @@
 var newCommandForm = document.forms.nouveauSupporterF;
 
 function add(){
-    let supporter = document.forms.nouveauSupporterF.supporterId.value;
-    let motivation = document.forms.nouveauSupporterF.motivationId.value;
+
+    let name = document.forms.nouveauSupporterF.supporterId.value;
+    let pourquoi = document.forms.nouveauSupporterF.motivationId.value;
+    let email = document.forms.nouveauSupporterF.mailId.value;
 
     const boxItem = document.createElement('tr');
-    const supporterTD = document.createElement('td');
-    const motivationTD = document.createElement('td');
+    const nameTD = document.createElement('td');
+    const pourquoiTD = document.createElement('td');
+    const emailTD = document.createElement('td');
 
-    supporterTD.textContent = supporter;
-    motivationTD.textContent = motivation;
+    nameTD.textContent = name;
+    pourquoiTD.textContent = pourquoi;
+    emailTD.textContent = email;
 
-    /*if (!document.nouveauSupporterF.catégorie.checkValidity() || !document.nouveauSupporterF.start.checkValidity() || !document.nouveauSupporterF.task.checkValidity()){
-        return console.log("error");
-    }*/
-
-    boxItem.append(supporterTD,motivationTD);
+    boxItem.append(nameTD, pourquoiTD, emailTD);
 
     const tableau = document.querySelector('.datatable tbody')
     tableau.appendChild(boxItem);
+
 }
